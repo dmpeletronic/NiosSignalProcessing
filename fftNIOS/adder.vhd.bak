@@ -1,0 +1,22 @@
+LIBRARY ieee;
+USE ieee.std_logic_1164.all;
+USE ieee.std_logic_arith.all;
+
+ENTITY adder IS
+GENERIC (n: INTEGER := 8)
+PORT ( 
+		a, b: IN SIGNED(n-1 DOWNTO 0);
+		
+		add: OUT SIGNED(n-1 DOWNTO 0)
+); 
+END multiply;
+
+ARCHITECTURE RTL OF multiply IS
+
+
+BEGIN
+	
+add <= a * b;
+	
+END rtl;
+ 

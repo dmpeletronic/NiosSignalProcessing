@@ -1,0 +1,7 @@
+set_global_assignment -name IP_TOOL_NAME "ALTFP_MULT"
+set_global_assignment -name IP_TOOL_VERSION "10.1"
+set_global_assignment -name VHDL_FILE [file join $::quartus(qip_path) "hw_mult_float.vhd"]
+set_global_assignment -name MISC_FILE [file join $::quartus(qip_path) "hw_mult_float.bsf"]
+set_global_assignment -name MISC_FILE [file join $::quartus(qip_path) "hw_mult_float_inst.vhd"]
+set_global_assignment -name MISC_FILE [file join $::quartus(qip_path) "hw_mult_float.inc"]
+set_global_assignment -name MISC_FILE [file join $::quartus(qip_path) "hw_mult_float.cmp"]

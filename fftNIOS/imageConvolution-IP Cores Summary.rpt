@@ -1,0 +1,52 @@
+IP Cores Summary report for imageConvolution
+Fri Feb 10 21:47:00 2012
+Quartus II Version 10.1 Build 197 01/19/2011 Service Pack 1 SJ Web Edition
+
+
+---------------------
+; Table of Contents ;
+---------------------
+  1. Legal Notice
+  2. Analysis & Synthesis IP Cores Summary
+
+
+
+----------------
+; Legal Notice ;
+----------------
+Copyright (C) 1991-2011 Altera Corporation
+Your use of Altera Corporation's design tools, logic functions 
+and other software and tools, and its AMPP partner logic 
+functions, and any output files from any of the foregoing 
+(including device programming or simulation files), and any 
+associated documentation or information are expressly subject 
+to the terms and conditions of the Altera Program License 
+Subscription Agreement, Altera MegaCore Function License 
+Agreement, or other applicable license agreement, including, 
+without limitation, that your use is for the sole purpose of 
+programming logic devices manufactured by Altera and sold by 
+Altera or its authorized distributors.  Please refer to the 
+applicable agreement for further details.
+
+
+
++------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+; Analysis & Synthesis IP Cores Summary                                                                                                                                                                                                                                                                                                                                                                                  ;
++--------+---------------------------------+---------+--------------+---------------+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+------------------------------------------------------------------------------------+
+; Vendor ; IP Core Name                    ; Version ; Release Date ; License Type  ; Entity Instance                                                                                                                                                                                                                               ; IP Include File                                                                    ;
++--------+---------------------------------+---------+--------------+---------------+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+------------------------------------------------------------------------------------+
+; Altera ; ALTPLL                          ; 10.1    ; N/A          ; N/A           ; |imageConvolution|pll_system:inst2                                                                                                                                                                                                            ; C:/altera/Projetos/fftNIOS/pll_system.vhd                                          ;
+; Altera ; RAM: 2-PORT                     ; N/A     ; N/A          ; N/A           ; |imageConvolution|processador:inst|fft_pipeline_0:the_fft_pipeline_0|fft_pipeline:fft_pipeline_0|dualportRAM:u0                                                                                                                               ; C:/altera/Projetos/ProjetosMestrado/FFT_CIII/dualportRAM.vhd                       ;
+; Altera ; RAM: 2-PORT                     ; N/A     ; N/A          ; N/A           ; |imageConvolution|processador:inst|fft_pipeline_0:the_fft_pipeline_0|fft_pipeline:fft_pipeline_0|mirror_ramdual:u6                                                                                                                            ; C:/altera/Projetos/ProjetosMestrado/FFT_CIII/mirror_ramdual.vhd                    ;
+; Altera ; LPM_MUX                         ; N/A     ; N/A          ; N/A           ; |imageConvolution|processador:inst|fft_pipeline_0:the_fft_pipeline_0|fft_pipeline:fft_pipeline_0|mux4_1:u7                                                                                                                                    ; C:/altera/Projetos/ProjetosMestrado/FFT_CIII/mux4_1.vhd                            ;
+; Altera ; RAM: 2-PORT                     ; 10.1    ; N/A          ; N/A           ; |imageConvolution|processador:inst|fft_pipeline_0:the_fft_pipeline_0|fft_pipeline:fft_pipeline_0|ram1dual_real:u2                                                                                                                             ; C:/altera/Projetos/ProjetosMestrado/FFT_CIII/ram1dual_real.vhd                     ;
+; Altera ; DDR High Performance Controller ; 10.1    ; N/A          ; N/A           ; |imageConvolution|processador:inst|sdram:the_sdram                                                                                                                                                                                            ; C:/altera/Projetos/fftNIOS/sdram.vhd                                               ;
+; Altera ; DDR High Performance Controller ; N/A     ; Dec 2010     ; OpenCore Plus ; |imageConvolution|processador:inst|sdram:the_sdram|sdram_controller_phy:sdram_controller_phy_inst|sdram_auk_ddr_hp_controller_wrapper:sdram_auk_ddr_hp_controller_wrapper_inst|auk_ddr_hp_controller:auk_ddr_hp_controller_inst               ; C:/altera/Projetos/fftNIOS/auk_ddr_hp_controller.vhd                               ;
+; Altera ; altmemphy                       ; 10.1    ; N/A          ; N/A           ; |imageConvolution|processador:inst|sdram:the_sdram|sdram_controller_phy:sdram_controller_phy_inst|sdram_phy:sdram_phy_inst                                                                                                                    ; C:/altera/Projetos/fftNIOS/sdram_phy.vhd                                           ;
+; Altera ; ALTPLL                          ; N/A     ; N/A          ; N/A           ; |imageConvolution|processador:inst|sdram:the_sdram|sdram_controller_phy:sdram_controller_phy_inst|sdram_phy:sdram_phy_inst|sdram_phy_alt_mem_phy:sdram_phy_alt_mem_phy_inst|sdram_phy_alt_mem_phy_clk_reset:clk|sdram_phy_alt_mem_phy_pll:pll ; C:/altera/Projetos/fftNIOS/sdram_phy_alt_mem_phy_pll.vhd                           ;
+; Altera ; Triple Speed Ethernet           ; 10.1    ; N/A          ; N/A           ; |imageConvolution|processador:inst|tse_mac:the_tse_mac                                                                                                                                                                                        ; C:/altera/Projetos/fftNIOS/tse_mac.vhd                                             ;
+; Altera ; Triple Speed Ethernet           ; N/A     ; Dec 2010     ; OpenCore Plus ; |imageConvolution|processador:inst|tse_mac:the_tse_mac|altera_tse_mac:altera_tse_mac_inst|altera_tse_top_gen_host:top_gen_host_inst                                                                                                           ; C:/altera/Projetos/fftNIOS/triple_speed_ethernet-library/altera_tse_top_gen_host.v ;
++--------+---------------------------------+---------+--------------+---------------+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+------------------------------------------------------------------------------------+
+OpenCore Plus Hardware Evaluation feature is turned on for all cores in the design.
+
+

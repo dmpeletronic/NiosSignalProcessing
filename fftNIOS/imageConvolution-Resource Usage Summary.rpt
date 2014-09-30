@@ -1,0 +1,66 @@
+Resource Usage Summary report for imageConvolution
+Fri Feb 10 21:46:49 2012
+Quartus II Version 10.1 Build 197 01/19/2011 Service Pack 1 SJ Web Edition
+
+
+---------------------
+; Table of Contents ;
+---------------------
+  1. Legal Notice
+  2. Analysis & Synthesis Resource Usage Summary
+
+
+
+----------------
+; Legal Notice ;
+----------------
+Copyright (C) 1991-2011 Altera Corporation
+Your use of Altera Corporation's design tools, logic functions 
+and other software and tools, and its AMPP partner logic 
+functions, and any output files from any of the foregoing 
+(including device programming or simulation files), and any 
+associated documentation or information are expressly subject 
+to the terms and conditions of the Altera Program License 
+Subscription Agreement, Altera MegaCore Function License 
+Agreement, or other applicable license agreement, including, 
+without limitation, that your use is for the sole purpose of 
+programming logic devices manufactured by Altera and sold by 
+Altera or its authorized distributors.  Please refer to the 
+applicable agreement for further details.
+
+
+
++------------------------------------------------------------------------------------------------------------------------------------------+
+; Analysis & Synthesis Resource Usage Summary                                                                                              ;
++---------------------------------------------+--------------------------------------------------------------------------------------------+
+; Resource                                    ; Usage                                                                                      ;
++---------------------------------------------+--------------------------------------------------------------------------------------------+
+; Estimated Total logic elements              ; 21,326                                                                                     ;
+;                                             ;                                                                                            ;
+; Total combinational functions               ; 14881                                                                                      ;
+; Logic element usage by number of LUT inputs ;                                                                                            ;
+;     -- 4 input functions                    ; 6468                                                                                       ;
+;     -- 3 input functions                    ; 5139                                                                                       ;
+;     -- <=2 input functions                  ; 3274                                                                                       ;
+;                                             ;                                                                                            ;
+; Logic elements by mode                      ;                                                                                            ;
+;     -- normal mode                          ; 11812                                                                                      ;
+;     -- arithmetic mode                      ; 3069                                                                                       ;
+;                                             ;                                                                                            ;
+; Total registers                             ; 13691                                                                                      ;
+;     -- Dedicated logic registers            ; 13603                                                                                      ;
+;     -- I/O registers                        ; 176                                                                                        ;
+;                                             ;                                                                                            ;
+; I/O pins                                    ; 82                                                                                         ;
+; Total memory bits                           ; 189854                                                                                     ;
+; Embedded Multiplier 9-bit elements          ; 56                                                                                         ;
+; Total PLLs                                  ; 2                                                                                          ;
+;     -- PLLs                                 ; 2                                                                                          ;
+;                                             ;                                                                                            ;
+; Maximum fan-out node                        ; pll_system:inst2|altpll:altpll_component|pll_system_altpll:auto_generated|wire_pll1_clk[0] ;
+; Maximum fan-out                             ; 5975                                                                                       ;
+; Total fan-out                               ; 113454                                                                                     ;
+; Average fan-out                             ; 3.78                                                                                       ;
++---------------------------------------------+--------------------------------------------------------------------------------------------+
+
+

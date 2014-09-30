@@ -1,0 +1,12 @@
+PowerPlay Power Analyzer Status : Successful - Mon Aug 22 18:05:19 2011
+Quartus II 64-Bit Version : 10.1 Build 197 01/19/2011 SP 1 SJ Web Edition
+Revision Name : imageConvolution
+Top-level Entity Name : imageConvolution
+Family : Cyclone III
+Device : EP3C25F324C6
+Power Models : Final
+Total Thermal Power Dissipation : 308.45 mW
+Core Dynamic Thermal Power Dissipation : 0.82 mW
+Core Static Thermal Power Dissipation : 94.57 mW
+I/O Thermal Power Dissipation : 213.06 mW
+Power Estimation Confidence : Low: user provided insufficient toggle rate data

@@ -1,0 +1,26 @@
+WIDTH=21;
+DEPTH=16;
+
+ADDRESS_RADIX=HEX;
+DATA_RADIX=HEX;
+
+CONTENT BEGIN
+
+0 : 0f3e51;
+1 : 03c24d;
+2 : 0803e2;
+3 : 19b503;
+4 : 116bcd;
+5 : 0e57a8;
+6 : 01cf11;
+7 : 14f754;
+8 : 0c925a;
+9 : 0140fd;
+a : 0946e3;
+b : 17e5d7;
+c : 1ada75;
+d : 03eba8;
+e : 1c01f5;
+f : 139d0b;
+
+END;

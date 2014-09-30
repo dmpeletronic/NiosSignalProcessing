@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<preferences>
+ <debug showDebugMenu="0" />
+ <systemtable filter="Default">
+  <columns>
+   <opcodeName visible="0" />
+   <connections preferredWidth="383" />
+   <irq preferredWidth="34" />
+   <export visible="0" />
+   <inputclock preferredWidth="146" />
+   <description preferredWidth="242" />
+   <name preferredWidth="176" />
+  </columns>
+ </systemtable>
+ <clocktable>
+  <columns>
+   <clockname preferredWidth="286" />
+   <clocksource preferredWidth="285" />
+   <frequency preferredWidth="284" />
+  </columns>
+ </clocktable>
+ <window width="1366" height="728" x="0" y="0" />
+ <library
+   expandedCategories="Library/Memories and Memory Controllers/On-Chip,Library/Memories and Memory Controllers/DMA,Library/Bridges and Adapters,Project,Library,Library/Memories and Memory Controllers,Library/Bridges and Adapters/Memory Mapped,Project/FFT" />
+</preferences>

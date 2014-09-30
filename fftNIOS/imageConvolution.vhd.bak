@@ -1,0 +1,55 @@
+------- Main code: -----------------------
+LIBRARY ieee;
+USE ieee.std_logic_1164.all;
+USE ieee.std_logic_arith.all;
+USE work.my_functions.all;
+USE work.tipos.all;
+
+
+ ------------------------------------------
+ENTITY imageConvolution IS
+generic (n: integer := 8);
+PORT ( 
+		px: IN matriz9x9;
+		clk, rst: IN STD_LOGIC;
+		result: OUT SIGNED(7 DOWNTO 0)
+		); 
+END imageConvolution;
+
+ARCHITECTURE rtl OF imageConvolution IS
+
+COMPONENT adder IS
+GENERIC (n: INTEGER := 8);
+PORT ( 
+		a, b: IN SIGNED(n-1 DOWNTO 0);
+		
+		add: OUT SIGNED(n DOWNTO 0)
+); 
+END COMPONENT;
+
+COMPONENT multiply IS
+GENERIC (n: INTEGER := 8);
+PORT ( 
+		a, b: IN SIGNED(n-1 DOWNTO 0);
+		
+		mult: OUT SIGNED((n*2-1) DOWNTO 0)
+); 
+END COMPONENT;
+
+
+
+
+CONSTANT fH: matriz9x9:= (
+("00000001","00000010","00000001"),
+("00000000","00000000","00000000"),
+("11111111","11111101","11111111")
+);
+													
+signal saidaSobelH: matriz9x9;
+signal mul11,mul12,mul13,mul21,mul22,mul23,mul31,mul32,mul33: signed (n downto 0);
+BEGIN
+
+m0: multiply port map( px(0)(0), fH(0)(0), mul11 );
+	
+
+END rtl;

@@ -1,0 +1,112 @@
+Altera SOPC Builder Version 10.11 Build 197
+Copyright (c) 1999-2009 Altera Corporation.  All rights reserved.
+
+
+No .sopc_builder configuration file(!)
+# 2012.02.26 20:41:49 (*) mk_custom_sdk starting
+# 2012.02.26 20:41:49 (*) Reading project C:/altera/Projetos/fftNIOS/processador.ptf.
+
+# 2012.02.26 20:41:50 (*) Finding all CPUs
+# 2012.02.26 20:41:50 (*) Finding all available components
+# 2012.02.26 20:41:50 (*) Reading C:/altera/Projetos/fftNIOS/.sopc_builder/install.ptf
+
+# 2012.02.26 20:41:50 (*) Found 63 components
+
+# 2012.02.26 20:41:50 (*) Finding all peripherals
+
+# 2012.02.26 20:41:50 (*) Finding software components
+
+# 2012.02.26 20:41:51 (*) (Legacy SDK Generation Skipped)
+# 2012.02.26 20:41:51 (*) (All TCL Script Generation Skipped)
+# 2012.02.26 20:41:51 (*) (No Libraries Built)
+# 2012.02.26 20:41:51 (*) (Contents Generation Skipped)
+# 2012.02.26 20:41:51 (*) mk_custom_sdk finishing
+
+# 2012.02.26 20:41:51 (*) Starting generation for system: processador.
+
+..
+.
+.
+.
+..
+.
+...
+....
+.
+.
+
+# 2012.02.26 20:41:53 (*) Running Generator Program for cpuNios
+
+# 2012.02.26 20:42:00 (*) Starting Nios II generation
+# 2012.02.26 20:42:01 (*)   Checking for plaintext license.
+# 2012.02.26 20:42:07 (*)   Couldn't query license setup in Quartus directory c:/altera/10.1sp1/quartus
+# 2012.02.26 20:42:07 (*)   Defaulting to contents of LM_LICENSE_FILE environment variable
+# 2012.02.26 20:42:07 (*)   LM_LICENSE_FILE environment variable is empty
+# 2012.02.26 20:42:07 (*)   Plaintext license not found.
+# 2012.02.26 20:42:07 (*)   No license required to generate encrypted Nios II/e.
+
+# 2012.02.26 20:42:07 (*)   Getting CPU configuration settings
+# 2012.02.26 20:42:07 (*)   Elaborating CPU configuration settings
+# 2012.02.26 20:42:07 (*)   Creating all objects for CPU
+# 2012.02.26 20:42:09 (*)   Generating HDL from CPU objects
+# 2012.02.26 20:42:09 (*)   Creating plain-text HDL
+# 2012.02.26 20:42:14 (*) Done Nios II generation
+
+# 2012.02.26 20:42:15 (*) Running Generator Program for sdram
+
+# 2012.02.26 20:42:16 (*) Running Generator Program for jtag_uart
+
+# 2012.02.26 20:42:20 (*) Running Generator Program for sysid
+
+# 2012.02.26 20:42:22 (*) Running Generator Program for sys_clk_timer
+
+# 2012.02.26 20:42:25 (*) Running Generator Program for lcd_sgdma
+
+# 2012.02.26 20:42:29 (*) Running Generator Program for lcd_pixel_fifo
+
+# 2012.02.26 20:42:32 (*) Running Generator Program for lcd_i2c_scl
+
+# 2012.02.26 20:42:36 (*) Running Generator Program for lcd_i2c_en
+
+# 2012.02.26 20:42:38 (*) Running Generator Program for lcd_i2c_sdat
+
+# 2012.02.26 20:42:41 (*) Running Generator Program for performance_counter
+
+# 2012.02.26 20:42:44 (*) Running Generator Program for sgdma_rx
+
+# 2012.02.26 20:42:51 (*) Running Generator Program for sgdma_tx
+
+# 2012.02.26 20:42:55 (*) Running Generator Program for descriptor_memory
+
+# 2012.02.26 20:42:57 (*) Running Generator Program for cpu_ddr_clock_bridge
+
+# 2012.02.26 20:43:00 (*) Running Generator Program for tse_ddr_clock_bridge
+
+# 2012.02.26 20:43:03 (*) Running Generator Program for descriptor_offset_bridge
+
+.
+
+
+# 2012.02.26 20:43:07 (*) Running Test Generator Program for sdram
+
+# 2012.02.26 20:43:09 (*) Making arbitration and system (top) modules.
+
+# 2012.02.26 20:43:56 (*) Generating Quartus symbol for top level: processador
+
+# 2012.02.26 20:43:56 (*) Symbol C:/altera/Projetos/fftNIOS/processador.bsf already exists, no need to regenerate
+# 2012.02.26 20:43:56 (*) Creating command-line system-generation script: C:/altera/Projetos/fftNIOS/processador_generation_script
+
+# 2012.02.26 20:43:57 (*) Running setup for HDL simulator: modelsim
+
+
+# 2012.02.26 20:43:58 (*) Completed generation for system: processador.
+# 2012.02.26 20:43:58 (*) THE FOLLOWING SYSTEM ITEMS HAVE BEEN GENERATED:
+
+  SOPC Builder database : C:/altera/Projetos/fftNIOS/processador.ptf 
+  System HDL Model : C:/altera/Projetos/fftNIOS/processador.vhd 
+  System Generation Script : C:/altera/Projetos/fftNIOS/processador_generation_script 
+
+# 2012.02.26 20:43:58 (*) SUCCESS: SYSTEM GENERATION COMPLETED.
+
+
+Press 'Exit' to exit.

@@ -1,0 +1,22 @@
+LIBRARY ieee;
+USE ieee.std_logic_1164.all;
+
+ENTITY Demux1to8 IS
+	PORT (
+		sel : in STD_LOGIC_VECTOR(2 DOWNTO 0);
+		c : in STD_LOGIC;
+		res : out STD_LOGIC_VECTOR(7 DOWNTO 0)
+	);
+END ENTITY;
+
+ARCHITECTURE Demux_comp OF Demux1to8 IS
+BEGIN
+		res(0) <= (NOT sel(2) AND NOT sel(1) AND NOT sel(0)) AND c;
+		res(1) <= (NOT sel(2) AND NOT sel(1) AND sel(0)) AND c;
+		res(2) <= (NOT sel(2) AND sel(1) AND NOT sel(0)) AND c;
+		res(3) <= (NOT sel(2) AND sel(1) AND sel(0)) AND c;
+		res(4) <= (sel(2) AND NOT sel(1) AND NOT sel(0)) AND c;
+		res(5) <= (sel(2) AND NOT sel(1) AND sel(0)) AND c;
+		res(6) <= (sel(2) AND sel(1) AND NOT sel(0)) AND c;
+		res(7) <= (sel(2) AND sel(1) AND sel(0)) AND c;
+END Demux_comp;

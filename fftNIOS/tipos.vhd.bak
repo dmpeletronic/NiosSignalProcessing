@@ -1,0 +1,12 @@
+
+library IEEE ;
+use IEEE.STD_LOGIC_1164.ALL;
+use IEEE.STD_LOGIC_ARITH.ALL;
+use IEEE.STD_LOGIC_SIGNED.ALL;
+
+PACKAGE tipos IS
+
+TYPE linha9px IS ARRAY (8 downto 0) OF signed (7 downto 0) ;
+TYPE matriz9x9 IS ARRAY (8 downto 0) OF linha9px ;
+
+END tipos ;
